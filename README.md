@@ -1,4 +1,4 @@
-#  Atividades - Programação de Computadores
+# <div align="center"> Atividades - Programação de Computadores</div>
 
 Repositório destinado ao registro das **atividades práticas desenvolvidas em sala de aula** na disciplina de Programação de Computadores, com foco no desenvolvimento da **lógica de programação e dos fundamentos da linguagem Python**.
 
