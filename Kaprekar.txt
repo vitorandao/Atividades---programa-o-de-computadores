@@ -1,0 +1,14 @@
+def kaprekar(numero):
+
+    while numero != 6174:
+        num_str = str(numero).zfill(4)
+
+        asc = int("".join(sorted(num_str)))
+        desc = int("".join(sorted(num_str, reverse=True)))
+
+        numero = desc - asc
+
+        print(f"{desc} - {asc} = {numero}")
+      
+n = int(input("Digite um número de 4 dígitos: "))
+kaprekar(n)
